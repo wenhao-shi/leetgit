@@ -1,3 +1,4 @@
+import { notifyFailure, openShortcutSettings } from "./platform.js";
 import {
   exportExtensionData,
   getStoredConfig,
@@ -50,9 +51,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   }
 
   if (message?.type === "LEETGIT_OPEN_SHORTCUTS") {
-    chrome.tabs.create({ url: "chrome://extensions/shortcuts" });
-    sendResponse({ ok: true });
-    return false;
+    openShortcutSettings()
+      .then(() => sendResponse({ ok: true }))
+      .catch((error) => sendResponse({ ok: false, error: error.message }));
+    return true;
   }
 
   if (message?.type === "LEETGIT_SAVE_CONFIG") {
@@ -763,12 +765,7 @@ function notifyTab(tabId, message) {
 }
 
 function showFailureNotification(message, submission) {
-  chrome.notifications?.create({
-    type: "basic",
-    iconUrl: "icons/icon.svg",
-    title: "LeetGit sync failed",
-    message: submission ? `${submission.problemNumber}. ${submission.title}: ${message}` : message
-  });
+  return notifyFailure("LeetGit sync failed", submission ? `${submission.problemNumber}. ${submission.title}: ${message}` : message);
 }
 
 function friendlyErrorMessage(error, submission = null) {

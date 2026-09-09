@@ -41,7 +41,7 @@ async function init() {
 }
 
 async function loadShortcut() {
-  const commands = await chrome.commands.getAll();
+  const commands = await chrome.commands.getAll().catch(() => []);
   const cmd = commands.find((c) => c.name === "toggle-panel");
   const display = document.getElementById("shortcut-display");
   if (!display) return;
@@ -141,7 +141,7 @@ function bindActions() {
   document.getElementById("wipe-data").addEventListener("click",
     withErrorHandling(wipeData, "data"));
   document.getElementById("open-shortcuts").addEventListener("click", () => {
-    chrome.runtime.sendMessage({ type: "LEETGIT_OPEN_SHORTCUTS" });
+    sendMessage({ type: "LEETGIT_OPEN_SHORTCUTS" }).catch((error) => setSectionStatus("format", error.message, true));
   });
 }
 

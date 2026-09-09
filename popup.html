@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LeetGit</title>
     <link rel="stylesheet" href="src/popup.css">
+    <link rel="stylesheet" href="src/browser-access.css">
   </head>
   <body>
     <main class="popup">
+      <aside id="browser-access" class="browser-access" hidden></aside>
       <div class="popup-header">
         <span class="brand"><span class="brand-leet">Leet</span><span class="brand-git">Git</span></span>
       </div>
@@ -49,5 +51,6 @@
       </div>
     </main>
     <script type="module" src="src/popup.js"></script>
+    <script type="module" src="src/browser-access.js"></script>
   </body>
 </html>

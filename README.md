@@ -94,6 +94,10 @@ No copy-paste, no manual uploads. Solve a problem, get a commit. Your entire Lee
 
 ## Installation
 
+### Safari on macOS
+
+Safari 18 or later is supported by the macOS port. With Xcode and Node.js installed, run `./script/build_and_run.sh --install` from this directory. The script installs the local development app at `~/Applications/LeetGit.app`. See [Safari setup and testing](safari/README.md) for extension enablement, website permissions, notifications, and build details.
+
 ### Requirements
 
 - Google Chrome (or any Chromium-based browser)

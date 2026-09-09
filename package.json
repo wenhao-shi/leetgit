@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "generate-icons": "node scripts/generate-icons.mjs"
+    "generate-icons": "node scripts/generate-icons.mjs",
+    "prepare:safari": "node scripts/prepare-safari.mjs",
+    "build:safari": "bash script/build_and_run.sh --build-only"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2"

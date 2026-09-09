@@ -1,0 +1,13 @@
+.browser-access {
+  margin: 16px auto;
+  padding: 14px;
+  max-width: 900px;
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  background: #f6f8fa;
+  color: #24292f;
+  font: 13px/1.5 -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.browser-access[hidden], #safari-notifications[hidden] { display: none; }
+.browser-access p { margin: 6px 0 10px; }
+.browser-access button { padding: 7px 12px; cursor: pointer; }

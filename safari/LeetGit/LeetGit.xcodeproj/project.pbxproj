@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93242BDE3051F039002127FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93242BDD3051F039002127FA /* AppDelegate.swift */; };
+		93242BE23051F039002127FA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 93242BE03051F039002127FA /* Main.html */; };
+		93242BE43051F039002127FA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93242BE33051F039002127FA /* Icon.png */; };
+		93242BE63051F039002127FA /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 93242BE53051F039002127FA /* Style.css */; };
+		93242BE83051F039002127FA /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 93242BE73051F039002127FA /* Script.js */; };
+		93242BEA3051F039002127FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93242BE93051F039002127FA /* ViewController.swift */; };
+		93242BED3051F039002127FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93242BEB3051F039002127FA /* Main.storyboard */; };
+		93242BEF3051F03A002127FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93242BEE3051F03A002127FA /* Assets.xcassets */; };
+		93242BF63051F03A002127FA /* LeetGit Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 93242BF53051F03A002127FA /* LeetGit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		93242BFB3051F03A002127FA /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93242BFA3051F03A002127FA /* SafariWebExtensionHandler.swift */; };
+		93242C0E3051F03A002127FA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 93242C073051F03A002127FA /* LICENSE */; };
+		93242C0F3051F03A002127FA /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 93242C083051F03A002127FA /* popup.html */; };
+		93242C103051F03A002127FA /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 93242C093051F03A002127FA /* icons */; };
+		93242C113051F03A002127FA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 93242C0A3051F03A002127FA /* manifest.json */; };
+		93242C123051F03A002127FA /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 93242C0B3051F03A002127FA /* options.html */; };
+		93242C133051F03A002127FA /* onboarding.html in Resources */ = {isa = PBXBuildFile; fileRef = 93242C0C3051F03A002127FA /* onboarding.html */; };
+		93242C143051F03A002127FA /* src in Resources */ = {isa = PBXBuildFile; fileRef = 93242C0D3051F03A002127FA /* src */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93242BF73051F03A002127FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93242BD23051F039002127FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93242BF43051F03A002127FA;
+			remoteInfo = "LeetGit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93242C023051F03A002127FA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				93242BF63051F03A002127FA /* LeetGit Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		93242BDA3051F039002127FA /* LeetGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93242BDD3051F039002127FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93242BE13051F039002127FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		93242BE33051F039002127FA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		93242BE53051F039002127FA /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		93242BE73051F039002127FA /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		93242BE93051F039002127FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93242BEC3051F039002127FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93242BEE3051F03A002127FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93242BF03051F03A002127FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93242BF53051F03A002127FA /* LeetGit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LeetGit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93242BFA3051F03A002127FA /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		93242BFC3051F03A002127FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93242C073051F03A002127FA /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../../dist/safari/LICENSE; sourceTree = "<group>"; };
+		93242C083051F03A002127FA /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../../dist/safari/popup.html; sourceTree = "<group>"; };
+		93242C093051F03A002127FA /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../../dist/safari/icons; sourceTree = "<group>"; };
+		93242C0A3051F03A002127FA /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../dist/safari/manifest.json; sourceTree = "<group>"; };
+		93242C0B3051F03A002127FA /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../../dist/safari/options.html; sourceTree = "<group>"; };
+		93242C0C3051F03A002127FA /* onboarding.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = onboarding.html; path = ../../../dist/safari/onboarding.html; sourceTree = "<group>"; };
+		93242C0D3051F03A002127FA /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../dist/safari/src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93242BD73051F039002127FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93242BF23051F03A002127FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93242BD13051F039002127FA = {
+			isa = PBXGroup;
+			children = (
+				93242BDC3051F039002127FA /* LeetGit */,
+				93242BF93051F03A002127FA /* LeetGit Extension */,
+				93242BDB3051F039002127FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93242BDB3051F039002127FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93242BDA3051F039002127FA /* LeetGit.app */,
+				93242BF53051F03A002127FA /* LeetGit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93242BDC3051F039002127FA /* LeetGit */ = {
+			isa = PBXGroup;
+			children = (
+				93242BDD3051F039002127FA /* AppDelegate.swift */,
+				93242BE93051F039002127FA /* ViewController.swift */,
+				93242BEB3051F039002127FA /* Main.storyboard */,
+				93242BEE3051F03A002127FA /* Assets.xcassets */,
+				93242BF03051F03A002127FA /* Info.plist */,
+				93242BDF3051F039002127FA /* Resources */,
+			);
+			path = LeetGit;
+			sourceTree = "<group>";
+		};
+		93242BDF3051F039002127FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93242BE03051F039002127FA /* Main.html */,
+				93242BE33051F039002127FA /* Icon.png */,
+				93242BE53051F039002127FA /* Style.css */,
+				93242BE73051F039002127FA /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93242BF93051F03A002127FA /* LeetGit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				93242C063051F03A002127FA /* Resources */,
+				93242BFA3051F03A002127FA /* SafariWebExtensionHandler.swift */,
+				93242BFC3051F03A002127FA /* Info.plist */,
+			);
+			path = "LeetGit Extension";
+			sourceTree = "<group>";
+		};
+		93242C063051F03A002127FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93242C073051F03A002127FA /* LICENSE */,
+				93242C083051F03A002127FA /* popup.html */,
+				93242C093051F03A002127FA /* icons */,
+				93242C0A3051F03A002127FA /* manifest.json */,
+				93242C0B3051F03A002127FA /* options.html */,
+				93242C0C3051F03A002127FA /* onboarding.html */,
+				93242C0D3051F03A002127FA /* src */,
+			);
+			name = Resources;
+			path = "LeetGit Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93242BD93051F039002127FA /* LeetGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93242C033051F03A002127FA /* Build configuration list for PBXNativeTarget "LeetGit" */;
+			buildPhases = (
+				93242BD63051F039002127FA /* Sources */,
+				93242BD73051F039002127FA /* Frameworks */,
+				93242BD83051F039002127FA /* Resources */,
+				93242C023051F03A002127FA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93242BF83051F03A002127FA /* PBXTargetDependency */,
+			);
+			name = LeetGit;
+			packageProductDependencies = (
+			);
+			productName = LeetGit;
+			productReference = 93242BDA3051F039002127FA /* LeetGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93242BF43051F03A002127FA /* LeetGit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93242BFF3051F03A002127FA /* Build configuration list for PBXNativeTarget "LeetGit Extension" */;
+			buildPhases = (
+				AABBCCDDEEFF001122334455 /* Prepare Safari resources */,
+				93242BF13051F03A002127FA /* Sources */,
+				93242BF23051F03A002127FA /* Frameworks */,
+				93242BF33051F03A002127FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeetGit Extension";
+			packageProductDependencies = (
+			);
+			productName = "LeetGit Extension";
+			productReference = 93242BF53051F03A002127FA /* LeetGit Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93242BD23051F039002127FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					93242BD93051F039002127FA = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					93242BF43051F03A002127FA = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = 93242BD53051F039002127FA /* Build configuration list for PBXProject "LeetGit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93242BD13051F039002127FA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 93242BDB3051F039002127FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93242BD93051F039002127FA /* LeetGit */,
+				93242BF43051F03A002127FA /* LeetGit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+        AABBCCDDEEFF001122334455 /* Prepare Safari resources */ = {
+            isa = PBXShellScriptBuildPhase;
+            alwaysOutOfDate = 1;
+            buildActionMask = 2147483647;
+            files = ();
+            inputPaths = ();
+            outputPaths = ();
+            name = "Prepare Safari resources";
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\"\nnode \"$SRCROOT/../../scripts/prepare-safari.mjs\"\n";
+        };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93242BD83051F039002127FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93242BE43051F039002127FA /* Icon.png in Resources */,
+				93242BED3051F039002127FA /* Main.storyboard in Resources */,
+				93242BE83051F039002127FA /* Script.js in Resources */,
+				93242BE23051F039002127FA /* Main.html in Resources */,
+				93242BEF3051F03A002127FA /* Assets.xcassets in Resources */,
+				93242BE63051F039002127FA /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93242BF33051F03A002127FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93242C113051F03A002127FA /* manifest.json in Resources */,
+				93242C103051F03A002127FA /* icons in Resources */,
+				93242C123051F03A002127FA /* options.html in Resources */,
+				93242C133051F03A002127FA /* onboarding.html in Resources */,
+				93242C0E3051F03A002127FA /* LICENSE in Resources */,
+				93242C143051F03A002127FA /* src in Resources */,
+				93242C0F3051F03A002127FA /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93242BD63051F039002127FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93242BEA3051F039002127FA /* ViewController.swift in Sources */,
+				93242BDE3051F039002127FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93242BF13051F03A002127FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93242BFB3051F03A002127FA /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93242BF83051F03A002127FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93242BF43051F03A002127FA /* LeetGit Extension */;
+			targetProxy = 93242BF73051F03A002127FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93242BE03051F039002127FA /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93242BE13051F039002127FA /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		93242BEB3051F039002127FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93242BEC3051F039002127FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93242BFD3051F03A002127FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93242BFE3051F03A002127FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		93242C003051F03A002127FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LeetGit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LeetGit Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.leetgit.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93242C013051F03A002127FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LeetGit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LeetGit Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.leetgit.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		93242C043051F03A002127FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeetGit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LeetGit;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.leetgit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93242C053051F03A002127FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeetGit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LeetGit;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.leetgit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93242BD53051F039002127FA /* Build configuration list for PBXProject "LeetGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93242BFD3051F03A002127FA /* Debug */,
+				93242BFE3051F03A002127FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93242BFF3051F03A002127FA /* Build configuration list for PBXNativeTarget "LeetGit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93242C003051F03A002127FA /* Debug */,
+				93242C013051F03A002127FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93242C033051F03A002127FA /* Build configuration list for PBXNativeTarget "LeetGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93242C043051F03A002127FA /* Debug */,
+				93242C053051F03A002127FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93242BD23051F039002127FA /* Project object */;
+}

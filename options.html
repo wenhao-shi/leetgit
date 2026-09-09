@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LeetGit Settings</title>
     <link rel="stylesheet" href="src/settings-page.css">
+    <link rel="stylesheet" href="src/browser-access.css">
   </head>
   <body>
+    <aside id="browser-access" class="browser-access" hidden></aside>
 
     <!-- ── Header ─────────────────────────────────────────────── -->
     <header class="page-header">
@@ -204,6 +206,7 @@
             <p class="field-hint" style="margin-bottom:4px">Press <kbd id="shortcut-display">Alt+Shift+L</kbd> on any LeetCode problem page to open or close the LeetGit panel.</p>
             <p class="field-hint" style="margin-bottom:12px">Default shortcut: <kbd>Alt+Shift+L</kbd></p>
             <button id="open-shortcuts" class="btn" type="button">Customise shortcut</button>
+            <p id="shortcut-help" class="field-hint"></p>
           </div>
         </div>
 
@@ -235,6 +238,10 @@
                   <span class="check-sub">Shows a system notification if a sync fails so nothing is silently lost.</span>
                 </span>
               </label>
+              <div id="safari-notifications" hidden>
+                <button class="btn" type="button">Enable and test macOS notifications</button>
+                <p class="field-hint" role="status">Allow notifications to receive failure alerts outside the LeetCode tab.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -299,5 +306,6 @@
     </div>
 
     <script type="module" src="src/options.js"></script>
+    <script type="module" src="src/browser-access.js"></script>
   </body>
 </html>
